@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- CHOICE PAGE -->
+    <div id="choicePage" class="page">
+        <div class="container">
+            <div class="choice-card">
+                <h1 class="title-large">💌</h1>
+                <h2 class="choice-title">I have something to tell you...</h2>
+                <p class="choice-subtitle">Would you like to read it?</p>
+
+                <div class="choice-buttons">
+                    <button class="btn btn-yes" id="yesBtn">Yes, I'm Ready! 💕</button>
+                    <button class="btn btn-no" id="noBtn">No, Thank You</button>
+                </div>
+            </div>
+
+            <div class="heart-animation">
+                <div class="heart"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ESSAY PAGE -->
+    <div id="essayPage" class="page hidden">
+        <div class="container">
+            <div class="confession-card">
+                <div class="essay-display">
+                    <!-- Paste your letter here -->
+
+                </div>
+
+                <button class="btn btn-back" id="backBtn">← Go Back</button>
+            </div>
+
+            <div class="heart-animation">
+                <div class="heart"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DECLINE PAGE -->
+    <div id="declinePage" class="page hidden">
+        <div class="container">
+            <div class="decline-card">
+                <h1 class="decline-title">✓</h1>
+                <h2 class="decline-message">Okay, I understand.</h2>
+                <p class="decline-subtitle">Maybe next time... 💭</p>
+
+                <button class="btn btn-retry" id="retryBtn">Go Back</button>
+            </div>
+
+            <div class="heart-animation">
+                <div class="heart"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
